@@ -21,7 +21,7 @@ while True:
 
     #Display
     cv2.imshow('img', img)
-    k=cv2.waitKey(10)s
+    k=cv2.waitKey(10)
     #press ESC key to exit the webcam
     if k==27:
         break
