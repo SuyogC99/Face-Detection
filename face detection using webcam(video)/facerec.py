@@ -1,6 +1,9 @@
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-cap=cv2.VideoCapture(0)
+# To capture video from webcam. 
+cap = cv2.VideoCapture(0)
+# To use a video file as input 
+# cap = cv2.VideoCapture('filename.mp4')
 while True:
     ret,img=cap.read()
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
