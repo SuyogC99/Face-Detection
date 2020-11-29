@@ -3,4 +3,4 @@ You can detect face, right eye,left eye,full body, cat face etc using the xml fi
 
 For different xml files go to this link: https://github.com/opencv/opencv/tree/master/data/haarcascades.
 
-Thank You
+Thank You🙂
